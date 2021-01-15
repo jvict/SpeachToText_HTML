@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Speach To Text</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=" width-device-width, initial-scale=1">
+
+        <style>
+            h1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .output{
+                display: block;
+                width: 80%;
+                height: 400px;
+                margin: 30px auto;
+            }
+            .container-button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+            }
+
+            .btn-end{
+                margin-left: 10px;
+                background-color:gray;
+            }
+
+            .btn-start{
+                
+                background-color:lightskyblue;
+            }
+
+            .btn-start, .btn-end{
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                       
+                width: 5rem;
+                height: 0.5rem;
+
+                border-radius: 0.8rem;
+                margin-right: 0;
+                padding: 10px;
+
+                border: none;
+                font-weight: 200 1rem Archivo;
+
+            
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Speach To Text</h1>
+        <div class="container-button">
+            <button class="btn-start"> Start</button>
+            <button class="btn-end"> End</button>
+        </div>
+        <textarea class="output"></textarea>
+
+        <script src = "app.js"></script>
+    </body>
+   
+</html>
